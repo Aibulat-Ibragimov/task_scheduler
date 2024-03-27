@@ -22,16 +22,16 @@ asgiref==3.8.1 <br>
 
 ```bash
 git clone https://github.com/Aibulat-Ibragimov/task_scheduler.git
-cd kittygram_final
+cd task_schedule
 ```
 
 Cоздать и активировать виртуальное окружение, установить зависимости:
 
 ```bash
-python3 -m venv venv && \ 
+python -m venv venv && \ 
     source venv/scripts/activate && \
     python -m pip install --upgrade pip && \
-    pip install -r backend/requirements.txt
+    pip install -r requirements.txt
 ```
 
 Выполнить миграции:
